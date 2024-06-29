@@ -11,7 +11,7 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { useRespiteStore } from '@/providers/respite-store-provider';
-import {nanoid} from 'nanoid';
+import { nanoid } from 'nanoid';
 {
   /*
  Userflow for adding a new entry:

@@ -2,7 +2,8 @@ import React from 'react';
 import { Entry } from '../entries';
 
 export default function GoalEntry({ entry }: { entry: Entry }) {
-{/*
+  {
+    /*
   How do we want to display a goal entry?
   Each goal entry has the following properties:
   - A title
@@ -23,6 +24,7 @@ export default function GoalEntry({ entry }: { entry: Entry }) {
   User can then input the number of books they have read so far.
   The progress bar will show how many books the user has read so far.
 
-*/}
+*/
+  }
   return <div>GoalEntry</div>;
 }

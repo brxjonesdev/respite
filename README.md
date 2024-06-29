@@ -1,6 +1,7 @@
 # Respite Journaling Platform
 
 ### Planned Features
+
 - Journaling support for markdown
 - Tag Based Organization
 - Tracking moods, habits and goals and visualize them over time.
@@ -10,11 +11,12 @@
 - Visualize progress on long-term goals and projects, providing users with insights and motivation to continue.
 
 ### What I'm Using
+
 - **Frontend**:
-    I am using NextJS 14 along with Tailwind, Typescript and ShadcUI
+  I am using NextJS 14 along with Tailwind, Typescript and ShadcUI
 - **Backend**:
-    I am using PrismaORM & Supabase for the database
+  I am using PrismaORM & Supabase for the database
 - **Everything In Between**:
-    Formik for handling entries and Yup for validation, Zustand for state management and AuthJS for authentication.
-  
+  Formik for handling entries and Yup for validation, Zustand for state management and AuthJS for authentication.
+
 You can view progress on my Twitter/X [https://twitter.com/brxjonesdev]

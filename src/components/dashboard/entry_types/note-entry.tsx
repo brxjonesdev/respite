@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import React from 'react';
 import { Entry } from '../entries';
 import {
@@ -24,12 +24,12 @@ import { useRespiteStore } from '@/providers/respite-store-provider';
 
 export default function NoteEntry({ entry }: { entry: Entry }) {
   // const { } = useRespiteStore((store) => store);
-  
+
   if (entry.isBeingEdited) {
     // Show the edit version of the entry
     return null;
   }
 
   // Show the normal version of the entry
-  return null
+  return null;
 }

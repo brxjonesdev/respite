@@ -19,7 +19,7 @@ export default async function JournalDashboard() {
     redirect('/');
   }
   return (
-    <section className="overflow-scroll space-y-2 rounded-b-lg pr-4">
+    <section className="overflow-scroll space-y-2 rounded-b-lg pr-4 w-full">
       <WelcomeCard />
       <AddEntry />
       <JournalEntries />
